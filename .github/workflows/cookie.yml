@@ -1,0 +1,35 @@
+name: Fetch and Update Cookies
+
+on:
+  schedule:
+    # Runs automatically every 5 minutes
+    - cron: '*/5 * * * *'
+  workflow_dispatch: # Allows you to manually trigger the script from the Actions tab
+
+jobs:
+  fetch-and-commit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write 
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch and parse cookie data
+        run: |
+          curl -s -L -k "https://allinonereborn.online/jtv-fetch/jstarcookie/cookie.json" | jq '[
+            .failed_results[]? | {
+              channel_name: (.channel_name // "Unknown"),
+              cookie: (if .error_details.final_url then (.error_details.final_url | split("?")[1] // "N/A") else "N/A" end)
+            }
+          ]' > cookies.json
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto-update extracted tokens"
+          file_pattern: cookies.json
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "41898282+github-actions[bot]@users.noreply.github.com"
+          commit_author: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
