@@ -13,6 +13,7 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v4
+      
       - name: process
         run: |
           python3 -c "
@@ -26,6 +27,7 @@ jobs:
               with open('cookies.json', 'w') as f: json.dump(out, f, indent=4)
           except Exception as e: print(e)
           "
+
       - name: commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
