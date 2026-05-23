@@ -2,9 +2,9 @@ name: Fetch and Update Cookies
 
 on:
   schedule:
-    # Runs automatically every 5 minutes
-    - cron: '*/5 * * * *'
-  workflow_dispatch: # Allows you to manually trigger the script from the Actions tab
+    # Fastest permitted GitHub Actions cron schedule
+    - cron: '* * * * *'
+  workflow_dispatch:
 
 jobs:
   fetch-and-commit:
