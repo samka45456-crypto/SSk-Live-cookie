@@ -1,4 +1,4 @@
-name: Fetch and Update Cookies (Debug Mode)
+name: Fetch and Update Cookies
 
 on:
   schedule:
@@ -15,35 +15,26 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Fetch Raw JSON (Debug)
+      - name: Fetch and parse data
         run: |
-          echo "--- Fetching from server ---"
-          # Added User-Agent to mimic a real browser, removed -s so we can see errors
-          curl -L -k -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" "https://allinonereborn.online/jtv-fetch/jstarcookie/cookie.json" -o raw_response.json
+          # Fetch the data with a real browser User-Agent to prevent bot blocking
+          curl -s -L -k -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" "https://allinonereborn.online/jtv-fetch/jstarcookie/cookie.json" -o raw.json
           
-          echo "--- Server Response (Raw) ---"
-          cat raw_response.json
-          echo ""
-
-      - name: Parse Data
-        run: |
-          echo "--- Parsing with jq ---"
-          # Process the raw file and output to cookies.json
-          jq '[
-            .failed_results[]? | {
-              channel_name: (.channel_name // "Unknown"),
-              cookie: (if .error_details.final_url then (.error_details.final_url | split("?")[1] // "N/A") else "N/A" end)
-            }
-          ]' raw_response.json > cookies.json || echo "[]" > cookies.json
-          
-          echo "--- Final cookies.json ---"
-          cat cookies.json
+          # Verify the API returned valid JSON before processing
+          if jq -e . raw.json >/dev/null 2>&1; then
+            jq '[
+              .failed_results[]? | {
+                channel_name: (.channel_name // "Unknown"),
+                cookie: (if .error_details.final_url then (.error_details.final_url | split("?")[1] // "N/A") else "N/A" end)
+              }
+            ]' raw.json > cookies.json
+            echo "Successfully updated cookies.json"
+          else
+            echo "Failed to get valid JSON from server. Keeping the existing file to prevent an empty file."
+          fi
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Auto-update extracted tokens"
           file_pattern: cookies.json
-          commit_user_name: "github-actions[bot]"
-          commit_user_email: "41898282+github-actions[bot]@users.noreply.github.com"
-          commit_author: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
