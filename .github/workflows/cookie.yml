@@ -1,4 +1,4 @@
-name: Fetch and Update Cookies
+name: fetch and update cookies
 
 on:
   schedule:
@@ -6,22 +6,24 @@ on:
   workflow_dispatch:
 
 jobs:
-  fetch-and-commit:
+  update-cookies:
     runs-on: ubuntu-latest
     permissions:
       contents: write 
 
     steps:
-      - name: Checkout repository
+      - name: checkout repository
         uses: actions/checkout@v4
 
-      - name: Process JSON with Python
+      - name: process json and extract cookies
         run: |
           cat << 'EOF' > process.py
-          import json, urllib.request, urllib.parse, sys
+          import json
+          import urllib.request
+          import urllib.parse
+          import sys
 
           url = 'https://allinonereborn.online/jtv-fetch/jstarcookie/cookie.json'
-          # Using a strong User-Agent to bypass basic server blocking
           req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0 Safari/537.36'})
           
           try:
@@ -32,7 +34,7 @@ jobs:
               for item in data.get('failed_results', []):
                   name = item.get('channel_name', 'Unknown')
                   
-                  # Keep the list clean
+                  # Exclude specific channels from the final list
                   if 'super hungama' in name.lower():
                       continue
                       
@@ -42,7 +44,6 @@ jobs:
                   if url_str:
                       parsed = urllib.parse.urlparse(url_str)
                       if parsed.query:
-                          # Extracts everything after the '?' just like parse_url($fullUrl, PHP_URL_QUERY)
                           cookie_val = parsed.query
                           
                   result.append({
@@ -53,16 +54,16 @@ jobs:
               with open('cookies.json', 'w') as f:
                   json.dump(result, f, indent=4)
                   
-              print("Successfully processed and created cookies.json")
+              print("successfully processed and created cookies.json")
               
           except Exception as e:
-              print(f"Error fetching or parsing data: {e}")
+              print(f"error fetching or parsing data: {e}")
               sys.exit(1)
           EOF
           python3 process.py
 
-      - name: Commit and push changes
+      - name: commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Auto-update extracted tokens"
+          commit_message: "auto-update extracted tokens"
           file_pattern: cookies.json
