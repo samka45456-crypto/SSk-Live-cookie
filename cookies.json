@@ -1,1 +1,302 @@
-
+[
+    {
+        "channel_name": "Colors HD",
+        "cookie": "__hdnea__=st=1779796638~exp=1779818238~acl=/bpk-tv/ColorsHD_BTS/WDVLive/*~hmac=618e6efb45b0615104f361e77b38f80d0f99bfe64e3c3d55148c647c83eaa6d0"
+    },
+    {
+        "channel_name": "Star Gold HD",
+        "cookie": "__hdnea__=st=1779812106~exp=1779833706~acl=/bpk-tv/Star_Gold_HD_BTS/WDVLive/*~hmac=fc9175e5200d322d12165f6c569db4792fbc348c0e9cd50d07698d0cf312b932"
+    },
+    {
+        "channel_name": "Colors Gujarati",
+        "cookie": "__hdnea__=st=1779793806~exp=1779815406~acl=/bpk-tv/ColorsGujarati_BTS/WDVLive/*~hmac=6042e8f84705ef53c456957fbd35d35ad442998dd907953504c7e798543cea96"
+    },
+    {
+        "channel_name": "MTV",
+        "cookie": "__hdnea__=st=1779793506~exp=1779815106~acl=/bpk-tv/MTV_BTS/WDVLive/*~hmac=320e7ca9e83fe4ec1ef4c7ed0ac4272e54ee0acf46a41d6f3f1c2287ef765212"
+    },
+    {
+        "channel_name": "Colors Rishtey",
+        "cookie": "__hdnea__=st=1779810308~exp=1779831908~acl=/bpk-tv/ColorsRishtey_BTS/WDVLive/*~hmac=16abb8bfbc9508cf3589eab96d072fba1029fef7bb530f9fb19eeb5f83414c99"
+    },
+    {
+        "channel_name": "Star Jalsha HD",
+        "cookie": "__hdnea__=st=1779810312~exp=1779831912~acl=/bpk-tv/Star_Jalsha_HD_BTS/WDVLive/*~hmac=e9d4c0d9f7a183b10ff1ed4f6e41e30b355ee94ed42663469fe7b3c7132ac0ca"
+    },
+    {
+        "channel_name": "Star Pravah HD",
+        "cookie": "__hdnea__=st=1779805508~exp=1779827108~acl=/bpk-tv/Star_Pravah_HD_BTS/WDVLive/*~hmac=6d6f7ae2855eccd57ac84917e452e55c78f0aa82e936261fd9e30ac86c24db4b"
+    },
+    {
+        "channel_name": "Star Vijay HD",
+        "cookie": "__hdnea__=st=1779807610~exp=1779829210~acl=/bpk-tv/Star_Vijay_HD_BTS/WDVLive/*~hmac=d88a032c40a1a9bc53a60a2dab495be61090b56ef63eaa1d0079a7f4a6fefb25"
+    },
+    {
+        "channel_name": "Suvarna HD",
+        "cookie": "__hdnea__=st=1779810317~exp=1779831917~acl=/bpk-tv/Suvarna_HD_BTS/WDVLive/*~hmac=35d280edaa34be939b6d7bba8e77713b0d4b2da26dd5268c5986e2bfc040ac70"
+    },
+    {
+        "channel_name": "Zee Anmol Cinema",
+        "cookie": "__hdnea__=st=1779803408~exp=1779825008~acl=/bpk-tv/ZeeAnmolCinema_BTS/WDVLive/*~hmac=ccf6a8dd8e7b437a66a2c3390b944b40271b78849a54359440ce3f0d7c22f8e3"
+    },
+    {
+        "channel_name": "Colors Tamil HD",
+        "cookie": "__hdnea__=st=1779805513~exp=1779827113~acl=/bpk-tv/ColorsTamilHD_BTS/WDVLive/*~hmac=d4c0b5b36daa118236770c4c9ba928c09efa21a6434e18ba731a43189473228e"
+    },
+    {
+        "channel_name": "Star Sports Select 1 HD",
+        "cookie": "__hdnea__=st=1779805215~exp=1779826815~acl=/bpk-tv/Star_Sports_Select_HD_1_BTS/WDVLive/*~hmac=0228f743788cc108e58fd3fbb52405ce259cda4b84aa6df87df39234b1e1fc00"
+    },
+    {
+        "channel_name": "Star Sports Select 2 HD",
+        "cookie": "__hdnea__=st=1779793814~exp=1779815414~acl=/bpk-tv/Star_Sports_Select_HD_2_BTS/WDVLive/*~hmac=dcc7822fc8b1d0f9b7a16cf65a92f9731d74934ef9f878913bdd3070e91371c2"
+    },
+    {
+        "channel_name": "Colors Cineplex",
+        "cookie": "__hdnea__=st=1779800356~exp=1779821956~acl=/bpk-tv/Colors_Cineplex_BTS/WDVLive/*~hmac=936d131d94886e882b03df9426fdf48e83baec243946095be66f2b74166e9b2e"
+    },
+    {
+        "channel_name": "Colors Marathi HD",
+        "cookie": "__hdnea__=st=1779793817~exp=1779815417~acl=/bpk-tv/Colors_Marathi_HD_BTS/WDVLive/*~hmac=aa6dd74f71a64d2d837c4b6f15a66efe846860225eb2940a52966521b02995bf"
+    },
+    {
+        "channel_name": "Colors Kannada HD",
+        "cookie": "__hdnea__=st=1779792912~exp=1779814512~acl=/bpk-tv/Colors_Kannada_HD_BTS/WDVLive/*~hmac=94ca63228d6dcf3b6724373ecaeacf5436fc74ccf9fbdc7ce2243ca4f4a65fd9"
+    },
+    {
+        "channel_name": "Maa Movies HD",
+        "cookie": "__hdnea__=st=1779805221~exp=1779826821~acl=/bpk-tv/Maa_Movies_HD_BTS/WDVLive/*~hmac=41ec7015a93dd26f0ab4dd98368778f7b744140a760df1fbc18deeaa707b2f31"
+    },
+    {
+        "channel_name": "Colors Super",
+        "cookie": "__hdnea__=st=1779805224~exp=1779826824~acl=/bpk-tv/ColorsSuper_BTS/WDVLive/*~hmac=42a59d024a4d7bdbdc16dbc49117d676fd2fb900dd4e7160aeebcfe42216e445"
+    },
+    {
+        "channel_name": "Star Bharat HD",
+        "cookie": "__hdnea__=st=1779805074~exp=1779826674~acl=/bpk-tv/Star_Bharat_HD_BTS/WDVLive/*~hmac=fbd96d7d9e3a8329d537a040c44e3fba18ce55c8cc6e7e20425984d6e0bfdd41"
+    },
+    {
+        "channel_name": "Star Movies HD",
+        "cookie": "__hdnea__=st=1779804017~exp=1779825617~acl=/bpk-tv/StarMoviesHD_BTS/WDVLive/*~hmac=6d0ee994d151aacec1d39939c5a4c2c427465831976fef619a58c171b966370b"
+    },
+    {
+        "channel_name": "Star Sports 1 HD",
+        "cookie": "__hdnea__=st=1779803118~exp=1779824718~acl=/bpk-tv/Star_Sports_HD1_BTS/WDVLive/*~hmac=409ae7ab3a949c960dbef1fa3bcc16fd43662109290c9535871d857ad021e3a7"
+    },
+    {
+        "channel_name": "Star Sports 1 Hindi HD",
+        "cookie": "__hdnea__=st=1779804352~exp=1779825952~acl=/bpk-tv/Star_Sports_HD1_Hindi_BTS/WDVLive/*~hmac=9dbcd82ec0ca2c236fc5b69019b579fdaa18f8b6289eaeb29b0d7674907ef074"
+    },
+    {
+        "channel_name": "Star Sports 2 HD",
+        "cookie": "__hdnea__=st=1779805524~exp=1779827124~acl=/bpk-tv/Star_Sports_HD2_BTS/WDVLive/*~hmac=334e21f81cee9f72de6841a3fc1ec63af777a1e1198c7a02508f994db2778676"
+    },
+    {
+        "channel_name": "Star Movies Select HD",
+        "cookie": "__hdnea__=st=1779805230~exp=1779826830~acl=/bpk-tv/Star_Movies_Select_HD_BTS/WDVLive/*~hmac=419bf92d3681de353164c2401f5802d4f26eb772f9f638a2300694c1af95e8d1"
+    },
+    {
+        "channel_name": "Maa Movies",
+        "cookie": "__hdnea__=st=1779805532~exp=1779827132~acl=/bpk-tv/Maa_Movies_BTS/WDVLive/*~hmac=c2720d7d1b8bf41fc7055cacc0c266fc58a2f4321b614b15929c27807fe0c710"
+    },
+    {
+        "channel_name": "Maa HD",
+        "cookie": "__hdnea__=st=1779804544~exp=1779826144~acl=/bpk-tv/Maa_HD_BTS/WDVLive/*~hmac=ddb019bbf1b5c1e0c6829094509dfe7dcadf87702d620e6c66a06197e6a2ac73"
+    },
+    {
+        "channel_name": "Star Gold Select HD",
+        "cookie": "__hdnea__=st=1779795015~exp=1779816615~acl=/bpk-tv/Star_Gold_Select_HD_BTS/WDVLive/*~hmac=015124af5c9bb00592edd2d50d311e231a376dc56721f88f696c3730ed65ba34"
+    },
+    {
+        "channel_name": "Star Sports Select 2",
+        "cookie": "__hdnea__=st=1779805542~exp=1779827142~acl=/bpk-tv/Star_Sports_Select_2_BTS/WDVLive/*~hmac=a052447fe6ff509a555d27e3ff8b977025f1ed577a9457c62a24e2826313953c"
+    },
+    {
+        "channel_name": "Star Movies",
+        "cookie": "__hdnea__=st=1779807920~exp=1779829520~acl=/bpk-tv/Star_Movies_BTS/WDVLive/*~hmac=95c10c48df60ac56fa81567bd88c56d77b00598c7e30fa0baebca93709ba994f"
+    },
+    {
+        "channel_name": "Suvarna",
+        "cookie": "__hdnea__=st=1779807928~exp=1779829528~acl=/bpk-tv/Suvarna_BTS/WDVLive/*~hmac=4ff006447348871fc30e2c7e409b6170dc4b4e062727f4c28debb678c379b18d"
+    },
+    {
+        "channel_name": "Star Gold Select",
+        "cookie": "__hdnea__=st=1779796825~exp=1779818425~acl=/bpk-tv/Star_Gold_Select_BTS/WDVLive/*~hmac=72d5da0a7fe7d47f9623fa1030ee674c2831fa7b9dfef40c652486d159078171"
+    },
+    {
+        "channel_name": "Star Sports 2 Kannada",
+        "cookie": "__hdnea__=st=1779807935~exp=1779829535~acl=/bpk-tv/Star_Sports_2_Kannada_BTS/WDVLive/*~hmac=32f3a08a1a83d4d6c0407af7c7696e465326b1d036084d6bb2e2ee3537a4ffa4"
+    },
+    {
+        "channel_name": "Star Sports Select 1",
+        "cookie": "__hdnea__=st=1779811222~exp=1779832822~acl=/bpk-tv/Star_Sports_Select_1_BTS/WDVLive/*~hmac=e18354c822e8be6212198d3df4e3cb9b77616eb7341cf6b4f40a50ffa7c247c8"
+    },
+    {
+        "channel_name": "Star Sports 1 Tamil",
+        "cookie": "__hdnea__=st=1779811227~exp=1779832827~acl=/bpk-tv/Star_Sports_1_Tamil_BTS/WDVLive/*~hmac=a610ddb4b742d7cb428ff230215ef6eb8962b9659496982877a3e137d7256f0c"
+    },
+    {
+        "channel_name": "Maa Music",
+        "cookie": "__hdnea__=st=1779809720~exp=1779831320~acl=/bpk-tv/Maa_Music_BTS/WDVLive/*~hmac=795f98ac3f2b9508dd191ed9b30026a573c6a2d3610ce2cc542a85cc8c89f2a1"
+    },
+    {
+        "channel_name": "Star Plus HD",
+        "cookie": "__hdnea__=st=1779795619~exp=1779817219~acl=/bpk-tv/Star_Plus_HD_BTS/WDVLive/*~hmac=7712e64e887e8062f67cd3be71c8d5f3cf3b08be33366894c5096107001c1ee2"
+    },
+    {
+        "channel_name": "Star Utsav Movies",
+        "cookie": "__hdnea__=st=1779805238~exp=1779826838~acl=/bpk-tv/Star_Utsav_Movies_BTS/WDVLive/*~hmac=af390ea7fe43b9d584b7257f03efdae3a89450887125a06de5ba4b4d9a8ac28c"
+    },
+    {
+        "channel_name": "Maa Gold",
+        "cookie": "__hdnea__=st=1779809724~exp=1779831324~acl=/bpk-tv/Maa_Gold_BTS/WDVLive/*~hmac=466eb1e8a42cc37615356f612be6178ed4b8acefc375deb947dd80135be7e3f3"
+    },
+    {
+        "channel_name": "Star Maa",
+        "cookie": "__hdnea__=st=1779811234~exp=1779832834~acl=/bpk-tv/Star_Maa_BTS/WDVLive/*~hmac=868baa0b29df66dec5c65d97f056594be90b34fc68f8428e490fb8312d74b1a0"
+    },
+    {
+        "channel_name": "Suvarna Plus",
+        "cookie": "__hdnea__=st=1779811237~exp=1779832837~acl=/bpk-tv/Suvarna_Plus_BTS/WDVLive/*~hmac=4e5c2d0da5d4ad64e75ff9db2688cc84caf141944986871d78706e17cf193a1c"
+    },
+    {
+        "channel_name": "Star Sports 2",
+        "cookie": "__hdnea__=st=1779811241~exp=1779832841~acl=/bpk-tv/Star_Sports_2_BTS/WDVLive/*~hmac=c01235191e862ad069563a8f95051153ecb3f74e1563a33896610fc417fa0aa5"
+    },
+    {
+        "channel_name": "Star Sports 1",
+        "cookie": "__hdnea__=st=1779811246~exp=1779832846~acl=/bpk-tv/Star_Sports_1_BTS/WDVLive/*~hmac=7f738dd9e300d1403d1e9e319a5013e37e2e821951ffb6d73ff27c670f708662"
+    },
+    {
+        "channel_name": "Star Utsav",
+        "cookie": "__hdnea__=st=1779811250~exp=1779832850~acl=/bpk-tv/Star_Utsav_BTS/WDVLive/*~hmac=1ef69e544aed11164d846f9cd97d5e3e1d9b862e53486a2a9fa4a17f7c0c1712"
+    },
+    {
+        "channel_name": "Star Gold 2 HD",
+        "cookie": "__hdnea__=st=1779802723~exp=1779824323~acl=/bpk-tv/Star_Gold_2_BTS/WDVLive/*~hmac=eea62af874cbe04d981b948e81c788f460b7a205bd8a617bfbccd83f548c4d32"
+    },
+    {
+        "channel_name": "Colors Infinity HD",
+        "cookie": "__hdnea__=st=1779811253~exp=1779832853~acl=/bpk-tv/Colors_Infinity_HD_BTS/WDVLive/*~hmac=28059836bebd47eca5562c53baef0129e6c7d49f528e735021ca0b771c32ef8a"
+    },
+    {
+        "channel_name": "Colors Gujarati Cinema",
+        "cookie": "__hdnea__=st=1779811255~exp=1779832855~acl=/bpk-tv/Colors_Gujarati_Cinema_BTS/WDVLive/*~hmac=ddc3be66f27f1ba34307533ad0b91c7f632e6dec35a4596f485aa08d7980de50"
+    },
+    {
+        "channel_name": "Colors Tamil",
+        "cookie": "__hdnea__=st=1779813325~exp=1779834925~acl=/bpk-tv/Colors_Tamil_BTS/WDVLive/*~hmac=65f18d20ea027a36744cddc38ec16985ee7106197107e6d4bf23d4397d7c358d"
+    },
+    {
+        "channel_name": "Disney Channel",
+        "cookie": "__hdnea__=st=1779812345~exp=1779833945~acl=/bpk-tv/Disney_Channel_BTS/WDVLive/*~hmac=897e39d3e208671e2e77b1996f6e3d6fdf2dbb702be8d1664f9167c5c4ad0e60"
+    },
+    {
+        "channel_name": "Disney Junior",
+        "cookie": "__hdnea__=st=1779809731~exp=1779831331~acl=/bpk-tv/Disney_Junior_BTS/WDVLive/*~hmac=cf9408d57b0d70c90eb3f6d8c4672b9dc1a2029f08ad3252d7077ab92a694b89"
+    },
+    {
+        "channel_name": "Disney International HD",
+        "cookie": "__hdnea__=st=1779792929~exp=1779814529~acl=/bpk-tv/Disney_International_HD_BTS/WDVLive/*~hmac=c75490e022299dd014cda4c2e1b9a6284111a9d62cb04507c154e017a36480a2"
+    },
+    {
+        "channel_name": "Star Sports 3",
+        "cookie": "__hdnea__=st=1779792033~exp=1779813633~acl=/bpk-tv/Star_Sports_3_BTS/WDVLive/*~hmac=8421e5414bca26c04d60eae0eb8def1a6cb6e7a27dbc386b418a545c1a9acab4"
+    },
+    {
+        "channel_name": "Hungama",
+        "cookie": "__hdnea__=st=1779794740~exp=1779816340~acl=/bpk-tv/Hungama_BTS/WDVLive/*~hmac=e20953a7fa4bc94505dd86d2204368297d1d4036aad74c81a32cf017f8aa360e"
+    },
+    {
+        "channel_name": "Colors Cineplex HD",
+        "cookie": "__hdnea__=st=1779795925~exp=1779817525~acl=/bpk-tv/ColorsCineplexHD_BTS/WDVLive/*~hmac=71d83d2e4d7b55f66cc074fcc852ab233f69b189debcff5beae9e679e987d8b1"
+    },
+    {
+        "channel_name": "Colors Kannada Cinema",
+        "cookie": "__hdnea__=st=1779811262~exp=1779832862~acl=/bpk-tv/ColorsKannadaCinema_BTS/WDVLive/*~hmac=8550e48ff67513548ee777ca83d311682af4747ef468f98929a0efd443dac979"
+    },
+    {
+        "channel_name": "Star Sports 1 Kannada",
+        "cookie": "__hdnea__=st=1779792047~exp=1779813647~acl=/bpk-tv/Star_Sports_1_Kannada_BTS/WDVLive/*~hmac=967b94ba01e33d6dedc7319bb01f25b6dfc0487eaf782f96d0fbd48e5ba14af5"
+    },
+    {
+        "channel_name": "Star Sports 1 Telugu",
+        "cookie": "__hdnea__=st=1779792054~exp=1779813654~acl=/bpk-tv/Star_Sports_1_Telugu_BTS/WDVLive/*~hmac=b41e8b3bcb000097832e9d8a10b544a12da03c1e056c3fb0662fd5ea41bf8582"
+    },
+    {
+        "channel_name": "Colors Bangla Cinema",
+        "cookie": "__hdnea__=st=1779811266~exp=1779832866~acl=/bpk-tv/Colors_Bangla_Cinema_BTS/WDVLive/*~hmac=863aeac65538d4a15f2b8a70dc3d1dca561d8776ce4a29ee095b526f1ac569ad"
+    },
+    {
+        "channel_name": "Colors Cineplex Bollywood",
+        "cookie": "__hdnea__=st=1779806262~exp=1779827862~acl=/bpk-tv/ColorsCineplexBollywood_BTS/WDVLive/*~hmac=6e10eba62e2c7bc21480d3667e08af4fbda100b12fb7b063a0fef4a92a30e6ee"
+    },
+    {
+        "channel_name": "Star Sports 2 Hindi HD",
+        "cookie": "__hdnea__=st=1779811189~exp=1779832789~acl=/bpk-tv/StarSportsHD2Hin_BTS/WDVLive/*~hmac=756b3d1cf39cca5a0388ba64d812d21b7f5c0a81a23c079bf878f00cef3d7ab1"
+    },
+    {
+        "channel_name": "Star Sports 2 Hindi",
+        "cookie": "__hdnea__=st=1779811271~exp=1779832871~acl=/bpk-tv/StarSports2Hin_BTS/WDVLive/*~hmac=f3f3f2dc2f38a0e5cb28f666f65329785d38f3f43762585aa10cffcc7b179665"
+    },
+    {
+        "channel_name": "Star Sports Khel",
+        "cookie": "__hdnea__=st=1779793839~exp=1779815439~acl=/bpk-tv/StarSportsKhel_BTS/WDVLive/*~hmac=cfc42ca800fe9912da91f531d8472948364105a23a20bb77575f04296d405dd3"
+    },
+    {
+        "channel_name": "Star Sports 2 Telugu",
+        "cookie": "__hdnea__=st=1779793843~exp=1779815443~acl=/bpk-tv/StarSports2Telugu_BTS/WDVLive/*~hmac=792bb61f366e8713bae173fc90265459ef256d82ff03d8566ca8e8bcbd461997"
+    },
+    {
+        "channel_name": "Star Sports 2 Tamil",
+        "cookie": "__hdnea__=st=1779793848~exp=1779815448~acl=/bpk-tv/StarSports2Tamil_BTS/WDVLive/*~hmac=d65f916665205587704be582baa5caa02461a8a42559daa7fcd0e362b8110a65"
+    },
+    {
+        "channel_name": "Star Gold 2 HD",
+        "cookie": "__hdnea__=st=1779794553~exp=1779816153~acl=/bpk-tv/Star_Gold_2_HD_BTS/WDVLive/*~hmac=1918ca6747414faa501488880f7d93ce608ef560a560bcc258dac8789782792f"
+    },
+    {
+        "channel_name": "Star Gold Romance",
+        "cookie": "__hdnea__=st=1779795933~exp=1779817533~acl=/bpk-tv/Star_Gold_Romance_BTS/WDVLive/*~hmac=427086d2fdb8572c5aea4eab781fbf31ae018283d53934d98699f526c4a03d1c"
+    },
+    {
+        "channel_name": "Star Gold Thrills",
+        "cookie": "__hdnea__=st=1779799537~exp=1779821137~acl=/bpk-tv/Star_Gold_Thrills_BTS/WDVLive/*~hmac=5ccc88f56a2bd0903551b05c204b20cbaff0c514e11100961648e02144a83dd6"
+    },
+    {
+        "channel_name": "Star Pravah Picture",
+        "cookie": "__hdnea__=st=1779811276~exp=1779832876~acl=/bpk-tv/Star_Pravah_Picture_BTS/WDVLive/*~hmac=8f5f00a350b02ea1b1c1e10a5cef348bb9b54082dcf3b4bb355adc3bb19298c4"
+    },
+    {
+        "channel_name": "Star Pravah Picture HD",
+        "cookie": "__hdnea__=st=1779807951~exp=1779829551~acl=/bpk-tv/Star_Pravah_Picture_HD_BTS/WDVLive/*~hmac=415eca3d9923fc4e23cdebf5485c6845330afb9a91c1d5cf79b1f46de00230ba"
+    },
+    {
+        "channel_name": "Star Sports 2 Tamil HD",
+        "cookie": "__hdnea__=st=1779793855~exp=1779815455~acl=/bpk-tv/Star_Sports2_Tamil_HD_BTS/WDVLive/*~hmac=e21631e2667f58b71c40d3ceaafde60bc9806d1845b7c169a713ebc6bfc0819f"
+    },
+    {
+        "channel_name": "Star Sports 2 Telugu HD",
+        "cookie": "__hdnea__=st=1779793859~exp=1779815459~acl=/bpk-tv/Star_Sports2_Telugu_HD_BTS/WDVLive/*~hmac=97134e5659b2ab86871cbcf64d305d3b5d07ca03621d15ce922aace9224faf2a"
+    },
+    {
+        "channel_name": "Star Movies Select",
+        "cookie": "__hdnea__=st=1779794734~exp=1779816334~acl=/bpk-tv/Star_Movies_Select_BTS/WDVLive/*~hmac=70bb617ecf576d7ddb37cda8684ecd36220b8af4e450d55c2954bcc3c81dfd91"
+    },
+    {
+        "channel_name": "Star Sports 1 Tamil HD",
+        "cookie": "__hdnea__=st=1779796853~exp=1779818453~acl=/bpk-tv/Star_Sports_1_Tamil_HD_BTS/WDVLive/*~hmac=ce363fbb9a5accd58ccd856128102c4c7feba1ffa8afce3b67ae7c56ee739e07"
+    },
+    {
+        "channel_name": "Star Sports 1 Telugu HD",
+        "cookie": "__hdnea__=st=1779796857~exp=1779818457~acl=/bpk-tv/Star_Sports_1_Telugu_HD_BTS/WDVLive/*~hmac=f27a466d17c4fff1ef2550e1364d460ae4ed5b6409513bb17fd5ddc9fd3d2408"
+    },
+    {
+        "channel_name": "Star Kiran",
+        "cookie": "__hdnea__=st=1779807956~exp=1779829556~acl=/bpk-tv/Star_Kiran_BTS/WDVLive/*~hmac=c0d2111b5b3c2ed6b447365d1dbcd0cba52b4b0a2ae88b1e6e46b927afbff9e6"
+    },
+    {
+        "channel_name": "Star Sports 1 Hindi",
+        "cookie": "__hdnea__=st=1779799547~exp=1779821147~acl=/bpk-tv/Star_Sports_1_Hindi_BTS/WDVLive/*~hmac=7ca5bd155460e5099afa949d9a2f86184fe00863f30ea5727bfddeba9841d210"
+    }
+]
